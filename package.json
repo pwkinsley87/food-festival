@@ -19,7 +19,13 @@
   },
   "homepage": "https://github.com/pwkinsley87/food-festival#readme",
   "devDependencies": {
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.0",
+    "save": "^2.5.0"
   }
 }
