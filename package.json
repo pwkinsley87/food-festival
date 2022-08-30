@@ -546,7 +546,6 @@
     "wbuf": "^1.7.3",
     "webpack": "^4.46.0",
     "webpack-bundle-analyzer": "^4.6.1",
-    "webpack-cli": "^4.6.0",
     "webpack-dev-middleware": "^5.3.3",
     "webpack-merge": "^5.8.0",
     "webpack-sources": "^1.4.3",
@@ -563,6 +562,7 @@
     "yauzl": "^2.10.0"
   },
   "devDependencies": {
+    "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.10.1"
   },
   "scripts": {
