@@ -7,7 +7,7 @@
     "bootstrap": "^5.2.0",
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^8.1.0",
-    "jquery": "^3.6.1",
+    "jquery": "^3.6.1"
   },
   "devDependencies": {
     "webpack-cli": "^4.10.0",
