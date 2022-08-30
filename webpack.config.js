@@ -1,4 +1,5 @@
 const webpack = require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const path = require("path");
 const config = {
@@ -27,8 +28,12 @@ const config = {
                         publicPath: function(url) {
                             return url.replace("../", "/assets/")
                         }
-                    }
+                    },
+                devServer: {
+                    index: index.html
                 },
+                },
+                
                 {
                     loader: 'image-webpack-loader'
                 }
@@ -43,6 +48,9 @@ const config = {
         }),
         new BundleAnalyzerPlugin({
             analyzerMode: "static", // the report outputs to an HTML file in the dist folder
+        }),
+        new HtmlWebpackPlugin({
+            template: "index.html"
         })
     ],
     mode: 'development' 
